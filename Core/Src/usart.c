@@ -169,3 +169,4 @@ void HAL_UART_MspDeInit(UART_HandleTypeDef* uartHandle)
       HAL_UART_Receive_IT(&huart1, rx_buffer, RXBUFFERSIZE); //开启下次接收中断
   }
 /* USER CODE END 1 */
+
